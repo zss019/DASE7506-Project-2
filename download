@@ -1,0 +1,5 @@
+.venv*/
+code/data/
+retrained/
+__pycache__/
+*.pyc

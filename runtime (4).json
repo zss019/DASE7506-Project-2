@@ -1,0 +1,14 @@
+{
+  "fresh_prediction_plus_scoring_seconds": 8.183650431223214,
+  "threads": 4,
+  "cuda_disabled": true,
+  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]",
+  "score": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 752,
+    "n": 798,
+    "accuracy": 94.23558897243107,
+    "scoring_seconds": 0.07731069065630436
+  }
+}

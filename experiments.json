@@ -1,0 +1,259 @@
+{
+  "fusion_search": {
+    "configurations": 14003,
+    "train_fits": 36,
+    "seconds": 63.00472929980606,
+    "validation_correct": 752
+  },
+  "joint_search": {
+    "base_configurations": 84,
+    "residual_fits": 3024,
+    "linear_fits": 70,
+    "validation_configurations": 79012,
+    "seconds": 1047.845999716781
+  },
+  "by_linear_l2": [
+    {
+      "l2": 0.0001,
+      "best_correct": 749,
+      "bases": 12
+    },
+    {
+      "l2": 0.001,
+      "best_correct": 749,
+      "bases": 12
+    },
+    {
+      "l2": 0.003,
+      "best_correct": 751,
+      "bases": 12
+    },
+    {
+      "l2": 0.0056234132519,
+      "best_correct": 752,
+      "bases": 12
+    },
+    {
+      "l2": 0.01,
+      "best_correct": 751,
+      "bases": 12
+    },
+    {
+      "l2": 0.1,
+      "best_correct": 750,
+      "bases": 12
+    },
+    {
+      "l2": 1.0,
+      "best_correct": 749,
+      "bases": 12
+    }
+  ],
+  "seven_evaluated_configurations": [
+    {
+      "rank": 1,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 386,
+        "n": 467,
+        "accuracy": 82.65524625267666,
+        "scoring_seconds": 0.04664821829646826
+      },
+      "config": {
+        "fractions": {
+          "full": 0.25,
+          "no_text": 0.375,
+          "no_formula": 0.125,
+          "target": 0.125
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 1.0,
+          "no_formula": 0.1,
+          "target": 1.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    },
+    {
+      "rank": 2,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 387,
+        "n": 467,
+        "accuracy": 82.86937901498929,
+        "scoring_seconds": 0.04700376186519861
+      },
+      "config": {
+        "fractions": {
+          "full": 0.25,
+          "no_text": 0.375,
+          "no_formula": 0.125,
+          "target": 0.125
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 0.3,
+          "no_formula": 0.1,
+          "target": 1.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    },
+    {
+      "rank": 3,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 386,
+        "n": 467,
+        "accuracy": 82.65524625267666,
+        "scoring_seconds": 0.04865284450352192
+      },
+      "config": {
+        "fractions": {
+          "full": 0.125,
+          "no_text": 0.375,
+          "no_formula": 0.125,
+          "target": 0.125
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 1.0,
+          "no_formula": 0.1,
+          "target": 1.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    },
+    {
+      "rank": 4,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 387,
+        "n": 467,
+        "accuracy": 82.86937901498929,
+        "scoring_seconds": 0.04689478129148483
+      },
+      "config": {
+        "fractions": {
+          "full": 0.25,
+          "no_text": 0.375,
+          "no_formula": 0.0625,
+          "target": 0.125
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 1.0,
+          "no_formula": 0.1,
+          "target": 1.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    },
+    {
+      "rank": 5,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 386,
+        "n": 467,
+        "accuracy": 82.65524625267666,
+        "scoring_seconds": 0.04635155666619539
+      },
+      "config": {
+        "fractions": {
+          "full": 0.25,
+          "no_text": 0.375,
+          "no_formula": 0.125,
+          "target": 0.0625
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 1.0,
+          "no_formula": 0.1,
+          "target": 1.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    },
+    {
+      "rank": 6,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 387,
+        "n": 467,
+        "accuracy": 82.86937901498929,
+        "scoring_seconds": 0.046476855874061584
+      },
+      "config": {
+        "fractions": {
+          "full": 0.375,
+          "no_text": 0.375,
+          "no_formula": 0.125,
+          "target": 0.125
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 1.0,
+          "no_formula": 0.1,
+          "target": 1.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    },
+    {
+      "rank": 7,
+      "validation_correct": 752,
+      "test": {
+        "protocol": "dase7506-mp2-open-hard-verifier-v5",
+        "split": "test",
+        "correct": 386,
+        "n": 467,
+        "accuracy": 82.65524625267666,
+        "scoring_seconds": 0.04644070565700531
+      },
+      "config": {
+        "fractions": {
+          "full": 0.25,
+          "no_text": 0.375,
+          "no_formula": 0.125,
+          "target": 0.125
+        },
+        "regularization": {
+          "full": 3.0,
+          "no_text": 1.0,
+          "no_formula": 0.1,
+          "target": 3.0
+        }
+      },
+      "linear_l2": 0.0056234132519,
+      "neural_fraction": 0.3,
+      "arithmetic_penalty": 1.5
+    }
+  ],
+  "reported_configuration": 2,
+  "limitations": "Repeated adaptive validation comparisons; search-selected validation accuracy is not an unbiased generalization estimate. Test figures describe this course bank."
+}

@@ -1,0 +1,14 @@
+{
+  "python": "3.12.3",
+  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
+  "cpu": "Intel Xeon Gold 6248",
+  "gpu": "NVIDIA GeForce RTX 3080 Ti",
+  "inference_threads": 4,
+  "inference_packages": {
+    "numpy": "2.4.6",
+    "scipy": "1.16.3"
+  },
+  "training_torch": "2.12.1+cu130",
+  "clean_inference_venv": true,
+  "training_verified_in_existing_pinned_environment": true
+}

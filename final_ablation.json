@@ -1,0 +1,50 @@
+{
+  "split": "validation",
+  "fixed_final_weights": true,
+  "no_refitting": true,
+  "no_test_access": true,
+  "rows": [
+    {
+      "method": "base_only",
+      "correct": 745,
+      "n": 798,
+      "hard_correct": 302,
+      "hard_n": 355
+    },
+    {
+      "method": "full_model",
+      "correct": 752,
+      "n": 798,
+      "hard_correct": 309,
+      "hard_n": 355
+    },
+    {
+      "method": "without_full",
+      "correct": 752,
+      "n": 798,
+      "hard_correct": 309,
+      "hard_n": 355
+    },
+    {
+      "method": "without_no_text",
+      "correct": 746,
+      "n": 798,
+      "hard_correct": 303,
+      "hard_n": 355
+    },
+    {
+      "method": "without_no_formula",
+      "correct": 751,
+      "n": 798,
+      "hard_correct": 308,
+      "hard_n": 355
+    },
+    {
+      "method": "without_target",
+      "correct": 752,
+      "n": 798,
+      "hard_correct": 309,
+      "hard_n": 355
+    }
+  ]
+}
