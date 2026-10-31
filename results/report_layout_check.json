@@ -1,0 +1,31 @@
+{
+  "pages": 5,
+  "all_text_within_page_bounds": true,
+  "details": [
+    {
+      "page": 1,
+      "text_characters": 2265,
+      "last_text_bottom": 819.2817993164062
+    },
+    {
+      "page": 2,
+      "text_characters": 2784,
+      "last_text_bottom": 819.2817993164062
+    },
+    {
+      "page": 3,
+      "text_characters": 2237,
+      "last_text_bottom": 819.2817993164062
+    },
+    {
+      "page": 4,
+      "text_characters": 2460,
+      "last_text_bottom": 819.2817993164062
+    },
+    {
+      "page": 5,
+      "text_characters": 3274,
+      "last_text_bottom": 819.2817993164062
+    }
+  ]
+}

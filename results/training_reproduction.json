@@ -1,0 +1,208 @@
+{
+  "arrays": {
+    "full.npz": {
+      "weights": {
+        "exact": false,
+        "max_absolute_difference": 7.221399034307296e-10
+      }
+    },
+    "no_text.npz": {
+      "weights": {
+        "exact": false,
+        "max_absolute_difference": 3.1302742620198387e-09
+      }
+    },
+    "no_formula.npz": {
+      "weights": {
+        "exact": false,
+        "max_absolute_difference": 4.037324252692542e-09
+      }
+    },
+    "target.npz": {
+      "weights": {
+        "exact": false,
+        "max_absolute_difference": 1.8142090052464255e-09
+      }
+    },
+    "base/set_pairwise_17.npz": {
+      "mean": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "scale": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w1": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b1": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w2": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b2": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w3": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b3": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "base/set_pairwise_29.npz": {
+      "mean": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "scale": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w1": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b1": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w2": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b2": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w3": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b3": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "base/set_pairwise_43.npz": {
+      "mean": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "scale": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w1": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b1": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w2": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b2": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "w3": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      },
+      "b3": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "base/baseline.npz": {
+      "weights": {
+        "exact": true,
+        "max_absolute_difference": 0.0
+      }
+    }
+  },
+  "all_exact": false,
+  "training": {
+    "seconds": 98.70877308771014,
+    "fit_count": 44,
+    "partitions": [
+      20261031,
+      20261107,
+      20261203
+    ],
+    "folds": [
+      {
+        "partition": 20261031,
+        "fold": 0,
+        "seconds": 5.514291384257376
+      },
+      {
+        "partition": 20261031,
+        "fold": 1,
+        "seconds": 4.352200041525066
+      },
+      {
+        "partition": 20261031,
+        "fold": 2,
+        "seconds": 4.666750431060791
+      },
+      {
+        "partition": 20261107,
+        "fold": 0,
+        "seconds": 4.862295895814896
+      },
+      {
+        "partition": 20261107,
+        "fold": 1,
+        "seconds": 4.83543196786195
+      },
+      {
+        "partition": 20261107,
+        "fold": 2,
+        "seconds": 4.758017252199352
+      },
+      {
+        "partition": 20261203,
+        "fold": 0,
+        "seconds": 4.832381522282958
+      },
+      {
+        "partition": 20261203,
+        "fold": 1,
+        "seconds": 4.793124173767865
+      },
+      {
+        "partition": 20261203,
+        "fold": 2,
+        "seconds": 4.866331048309803
+      }
+    ],
+    "train_only": true,
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "torch": "2.12.1+cu130",
+    "numpy": "2.4.6",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "epochs": [
+      15,
+      10,
+      10
+    ],
+    "threads": 4
+  }
+}
