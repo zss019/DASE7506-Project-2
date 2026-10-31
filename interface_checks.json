@@ -1,9 +1,0 @@
-{
-  "empty": true,
-  "batch_invariance": true,
-  "candidate_permutation": true,
-  "changed_ids": true,
-  "retrained_validation_predictions_identical": true,
-  "platform": "Linux-5.15.0-78-generic-x86_64-with-glibc2.35",
-  "python": "3.12.3 | packaged by Anaconda, Inc. | (main, May  6 2024, 19:46:43) [GCC 11.2.0]"
-}
