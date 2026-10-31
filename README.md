@@ -2,8 +2,6 @@
 
 Student ID: **3036837930**. Submitted model: the frozen **Top 2 matched-OOF numeric ensemble**. Official test result: **387/467 = 82.86937901498929%**; validation: **752/798 = 94.23558897243107%**.
 
-Read [the report](report/report.pdf), [AI/reuse disclosure](DISCLOSURE.md), and [experiment records](results/experiments.json). The published checkpoint is the evaluated artifact; reproducing its score does not require training. The official evaluator and parser in `code/` are unchanged. This repository contains no benchmark data; obtain it from the course repository.
-
 ## Installation and official data
 
 Use Python 3.12. Run from this repository's root:
